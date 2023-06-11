@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import styled from '@emotion/styled';
-import { deletePostById, getPostById } from '../../../CNU_Blog/src/api';
-import { IPost } from '../../../Desktop/CNU_Blog/src/api/types.ts';
-import NotFound from '../../../Desktop/CNU_Blog/src/components/NotFound.tsx';
-import Tag from '../../../Desktop/CNU_Blog/src/components/Tag.tsx';
+import { deletePostById, getPostById } from '../api';
+import { IPost } from '../api/types.ts';
+import NotFound from '../components/NotFound.tsx';
+import Tag from '../components/Tag.tsx';
 
 const Title = styled.h1`
   font-size: 3rem;

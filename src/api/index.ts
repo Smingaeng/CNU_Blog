@@ -1,6 +1,6 @@
 // eslint-disable-next-line import/named
 import axios, { AxiosResponse } from 'axios';
-import { IResponsePostList, TAG } from '../../../Desktop/CNU_Blog/src/api/types.ts';
+import { IResponsePostList, TAG } from './types.ts';
 
 const instance = axios.create({
   headers: {

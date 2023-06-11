@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
-import { getPostList } from '../../../CNU_Blog/src/api';
-import PostListItem from '../../../Desktop/CNU_Blog/src/components/PostListItem.tsx';
-import { IResponsePostList } from '../../../Desktop/CNU_Blog/src/api/types.ts';
-import NoPostList from '../../../Desktop/CNU_Blog/src/components/NoPostList.tsx';
+import { getPostList } from '../api';
+import PostListItem from '../components/PostListItem.tsx';
+import { IResponsePostList } from '../api/types.ts';
+import NoPostList from '../components/NoPostList.tsx';
 
 const Home = () => {
   const [postList, setPostList] = useState<IResponsePostList>([]);
